@@ -1,0 +1,5 @@
+name:  googlab
+description:  Una descrizione qualsiasi
+
+dependencies:
+  web_ui: any

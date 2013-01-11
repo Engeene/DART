@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Googlab</title>
+  <link rel="stylesheet" href="googlab.css">
+</head>
+<body>
+  <h1>Googlab</h1>
+  <p>{{ url }}</p>
+  <p>Contatore: {{ conta }}</p>
+
+  <hr/>
+
+  <input type="text" bind-value="str">
+  <div> Valore: {{str}}</div>
+  <div> Lunghezza: {{str.length}}</div>
+
+  <hr/>
+
+  <input type="text" bind-value="str">
+
+  <hr/>
+
+  <button on-click="cambia()">Cambia URL</button>
+
+  <script type="application/dart" src="googlab.dart"></script>
+</body>
