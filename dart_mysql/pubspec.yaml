@@ -1,0 +1,7 @@
+name: dart_mysql
+description: A sample command-line application
+dependencies:
+  sqljocky: any
+
+#dependencies:
+#  unittest: any
