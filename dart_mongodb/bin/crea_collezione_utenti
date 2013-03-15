@@ -1,0 +1,5 @@
+use miodb
+db.utenti.insert( { "id":"1", "nome":"John Doe" , "email":"info@jdoe.com" } )
+db.utenti.insert( { "id":"2", "nome":"Adrian Leverkuhun" , "email":"a.leverkuhun@email.com"} )
+db.utenti.insert( { "id":"3", "nome":"Duncan Ewart", "email":"duncan@welsh.com"} )
+db.utenti.insert( { "id":"4", "nome":"Raimond Gregorius", "email":"gregorius@coimbra.pt"} )
