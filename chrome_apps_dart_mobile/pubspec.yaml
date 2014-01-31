@@ -1,0 +1,6 @@
+name: chrome_apps_dart_mobile
+description: A sample chrome packaged application
+dependencies:
+  angular: any
+  browser: any
+  chrome: any

@@ -1,0 +1,87 @@
+---
+build.dart --machine --full
+Unhandled exception:
+'file:///home/dawson/workspace/github/Engeene/DART/cercaSuTwitter/build.dart': Error: line 3 pos 31: type 'Path' is not loaded
+final Path WATCHED_FILE = new Path.raw("web/cercasutwitter.dart");
+                              ^
+malformed type used.
+#0      WATCHED_FILE (file:///home/dawson/workspace/github/Engeene/DART/cercaSuTwitter/build.dart:3:31)
+#1      main (file:///home/dawson/workspace/github/Engeene/DART/cercaSuTwitter/build.dart:20:29)
+build.dart finished [156 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [117 ms]
+
+---
+build.dart --machine --changed=web/cercasutwitter.dart
+Unhandled exception:
+'file:///home/dawson/workspace/github/Engeene/DART/cercaSuTwitter/build.dart': Error: line 3 pos 31: type 'Path' is not loaded
+final Path WATCHED_FILE = new Path.raw("web/cercasutwitter.dart");
+                              ^
+malformed type used.
+#0      WATCHED_FILE (file:///home/dawson/workspace/github/Engeene/DART/cercaSuTwitter/build.dart:3:31)
+#1      main (file:///home/dawson/workspace/github/Engeene/DART/cercaSuTwitter/build.dart:20:29)
+build.dart finished [121 ms]
+
+---
+build.dart --machine --changed=web/cercasutwitter.dart
+Unhandled exception:
+'file:///home/dawson/workspace/github/Engeene/DART/cercaSuTwitter/build.dart': Error: line 3 pos 31: type 'Path' is not loaded
+final Path WATCHED_FILE = new Path.raw("web/cercasutwitter.dart");
+                              ^
+malformed type used.
+#0      WATCHED_FILE (file:///home/dawson/workspace/github/Engeene/DART/cercaSuTwitter/build.dart:3:31)
+#1      main (file:///home/dawson/workspace/github/Engeene/DART/cercaSuTwitter/build.dart:20:29)
+build.dart finished [112 ms]
+
+---
+build.dart --machine --changed=web/cercasutwitter.dart
+Unhandled exception:
+'file:///home/dawson/workspace/github/Engeene/DART/cercaSuTwitter/build.dart': Error: line 3 pos 31: type 'Path' is not loaded
+final Path WATCHED_FILE = new Path.raw("web/cercasutwitter.dart");
+                              ^
+malformed type used.
+#0      WATCHED_FILE (file:///home/dawson/workspace/github/Engeene/DART/cercaSuTwitter/build.dart:3:31)
+#1      main (file:///home/dawson/workspace/github/Engeene/DART/cercaSuTwitter/build.dart:20:29)
+build.dart finished [112 ms]
+
+---
+build.dart --machine --changed=web/cercasutwitter.dart
+Unhandled exception:
+'file:///home/dawson/workspace/github/Engeene/DART/cercaSuTwitter/build.dart': Error: line 3 pos 31: type 'Path' is not loaded
+final Path WATCHED_FILE = new Path.raw("web/cercasutwitter.dart");
+                              ^
+malformed type used.
+#0      WATCHED_FILE (file:///home/dawson/workspace/github/Engeene/DART/cercaSuTwitter/build.dart:3:31)
+#1      main (file:///home/dawson/workspace/github/Engeene/DART/cercaSuTwitter/build.dart:20:29)
+build.dart finished [122 ms]
+
+---
+build.dart --machine --changed=web/cercasutwitter.dart
+Unhandled exception:
+'file:///home/dawson/workspace/github/Engeene/DART/cercaSuTwitter/build.dart': Error: line 3 pos 31: type 'Path' is not loaded
+final Path WATCHED_FILE = new Path.raw("web/cercasutwitter.dart");
+                              ^
+malformed type used.
+#0      WATCHED_FILE (file:///home/dawson/workspace/github/Engeene/DART/cercaSuTwitter/build.dart:3:31)
+#1      main (file:///home/dawson/workspace/github/Engeene/DART/cercaSuTwitter/build.dart:20:29)
+build.dart finished [121 ms]
+
+---
+build.dart --machine --clean
+
+build.dart finished [76 ms]
+
+---
+build.dart --machine --full
+Unhandled exception:
+'file:///home/dawson/workspace/github/Engeene/DART/cercaSuTwitter/build.dart': Error: line 3 pos 31: type 'Path' is not loaded
+final Path WATCHED_FILE = new Path.raw("web/cercasutwitter.dart");
+                              ^
+malformed type used.
+#0      WATCHED_FILE (file:///home/dawson/workspace/github/Engeene/DART/cercaSuTwitter/build.dart:3:31)
+#1      main (file:///home/dawson/workspace/github/Engeene/DART/cercaSuTwitter/build.dart:20:29)
+build.dart finished [92 ms]
+

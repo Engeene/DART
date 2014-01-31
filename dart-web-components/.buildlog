@@ -1,0 +1,29 @@
+---
+build.dart --machine --full
+[{"method":"warning","params":{"file":"web/engeene.html","message":"unable to open file \"web/engeene.css\"","line":7,"charStart":83,"charEnd":125}}]
+Total time spent on web/engeene.html                         -- 790 ms
+[{"method":"generated","params":{"file":"web/out/engeene.dart"}}]
+[{"method":"generated","params":{"file":"web/out/engeene.dart.map"}}]
+[{"method":"generated","params":{"file":"web/out/engeene.html_bootstrap.dart"}}]
+[{"method":"mapping","params":{"from":"web/engeene.html","to":"web/out/engeene.html"}}]
+[{"method":"generated","params":{"file":"web/out/engeene.html"}}]
+Total time                                                   -- 864 ms
+build.dart finished [1635 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   --  35 ms
+build.dart finished [765 ms]
+
+---
+build.dart --machine --full
+[{"method":"warning","params":{"file":"web/engeene.html","message":"unable to open file \"web/engeene.css\"","line":7,"charStart":83,"charEnd":125}}]
+Total time spent on web/engeene.html                         -- 378 ms
+[{"method":"generated","params":{"file":"web/out/engeene.dart"}}]
+[{"method":"generated","params":{"file":"web/out/engeene.dart.map"}}]
+[{"method":"generated","params":{"file":"web/out/engeene.html_bootstrap.dart"}}]
+[{"method":"mapping","params":{"from":"web/engeene.html","to":"web/out/engeene.html"}}]
+[{"method":"generated","params":{"file":"web/out/engeene.html"}}]
+Total time                                                   -- 440 ms
+build.dart finished [834 ms]
+

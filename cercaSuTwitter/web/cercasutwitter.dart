@@ -1,6 +1,5 @@
 import 'dart:html';
-import 'dart:json' as JSON;
-import 'package:js/js.dart' as js;
+import 'dart:convert';
 
 void main() {
   ButtonElement btn = query("#btn");
@@ -16,12 +15,12 @@ void main() {
 void cerca(String q){
   if(q!=""){
     String url = "https://search.twitter.com/search.json?q=${q}&rpp=10";
-    HttpRequest richiesta = new HttpRequest.get(url, mostra);
+    HttpRequest richiesta = new HttpRequest.getString(url, mostra);
   }
 }
 
 void mostra(HttpRequest req) {;
-  Map tweets = JSON.parse(req.response)["results"];
+  Map tweets = JSON.decode(req.response)["results"];
   
   DivElement risultati = query("#boxRisultati");
   risultati.innerHtml="";
@@ -62,11 +61,11 @@ String linkify(String text) {
   List words = text.split(' ');
   var buffer = new StringBuffer();
   for (var word in words) {
-    if (!buffer.isEmpty) buffer.add(' ');
+    if (!buffer.isEmpty) buffer.write(' ');
     if (word.startsWith('http://') || word.startsWith('https://')) {
-      buffer.add('<a target=\'_blank\' href="$word">$word</a>');
+      buffer.write('<a target=\'_blank\' href="$word">$word</a>');
     } else {
-      buffer.add(word);
+      buffer.write(word);
     }
   }
   return buffer.toString();
